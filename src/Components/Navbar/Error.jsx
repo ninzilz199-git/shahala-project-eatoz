@@ -7,10 +7,10 @@ const Error = () => {
   return (
     <div className='main'>
      <img src={assets.error_page} alt="" />
-      
-      <p>Uh-oh! Looks like the page you are tring to acces,<br />dosen't exist.Please try again later</p>
-     
-      <Link to='/'> 
+
+      <p>Uh-oh! Looks like the page you are trying to access,<br />doesn't exist.Please try again later</p>
+
+      <Link to='/'>
       <button> Go Home</button>
       </Link> 
     </div>
